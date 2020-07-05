@@ -1,33 +1,23 @@
 class Translation(object):
-    START_TEXT = """Hello,
-i am YouTube Downloader Bot
-
-<code> I Will Convert Youtube Link to Video/File & Mp3. </code>
-
-<b> Send YouTube link and follow the screen promptes. </b>
-
-NB: <code> bot may slow ,so wait 5 - 10 second to bot respond....
-please dont spam with links...</code>
-
-Channel :  @MyTestBotZ"""
+    START_TEXT = """ I Am YouTube Downloader Bot
+<b> Send YouTube Link Or Any Video Direct Link I Will Upload. </b>
+ <code> Support HB4All @HB4All_Bot </code> """
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
-    UPGRADE_TEXT = "<b>Upgrade to Premium membership... Enjoy </b>"
-    FORMAT_SELECTION = "Select the desired format: <a href='{}'>file size might be approximate</a>"
+    UPGRADE_TEXT = "<bHB4All @HB4All_Bot</b>"
+    FORMAT_SELECTION = "Select The Desired Format: <a href='{}'>File Size Might Be Approximate</a>"
     SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
 URL | filename | username | password"""
-    NOYES_URL = "@robot URL detected. Please use https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
-    DOWNLOAD_START = """trying to download 📥
-    please wait.............                        
-    it's take time depend on File Size"""
+    NOYES_URL = "URL detected. Without Me slowing Down For Other Users."
+    DOWNLOAD_START = """Trying to Download 📥"""
     UPLOAD_START = """Download File Successfully,
-    trying Upload to Telegram 📤"""
-    RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
-    RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.5GB due to Telegram API limitations."
-    AFTER_SUCCESSFUL_UPLOAD_MSG = "Please rate me if you find me useful. Join : @MyTestBotZ"
+    Trying Upload To Telegram 📤"""
+    RCHD_BOT_API_LIMIT = "size Greater Than Maximum Allowed Size (50MB). Neverthless, Trying To Upload."
+    RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I Cannot Upload Files Greater Than 1.5GB Due to Telegram API limitations. Use Public Leech Geoup For Ulimited Download @Public_Leech_1 "
+    AFTER_SUCCESSFUL_UPLOAD_MSG = "Please Rate Me If You Find Me U-seful. Support HB4All @HB4All_Bot"
     AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds\nUploaded in {} seconds "
-    NOT_AUTH_USER_TEXT = "Please /upgrade your subscription."
-    NOT_AUTH_USER_TEXT_FILE_SIZE = "Detected File Size: {}. Free Users can only upload: {}\nPlease /upgrade your subscription.\nIf you think this is a bug, please contact <a href='https://telegram.dog/ThankTelegram'>@SpEcHlDe</a>"
+    NOT_AUTH_USER_TEXT = "😒😒 Send Me Link."
+    NOT_AUTH_USER_TEXT_FILE_SIZE = "Detected File Size Try Tomorrow"
     SAVED_CUSTOM_THUMB_NAIL = "Custom video / file thumbnail saved. This image will be used in the video / file."
     DEL_ETED_CUSTOM_THUMB_NAIL = "✅ Custom thumbnail cleared succesfully."
     FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "✅ Media cleared succesfully."
@@ -36,18 +26,15 @@ URL | filename | username | password"""
     NO_CUSTOM_THUMB_NAIL_FOUND = "No Custom ThumbNail found."
     NO_VOID_FORMAT_FOUND = "ERROR...\n<b>YouTubeDL</b> said: {}"
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
-    CURENT_PLAN_DETAILS = """Current plan details
---------
-Telegram ID : <code>{}</code>
-Plan        : Unlimitted
-Expires on  : until my death"""
+    CURENT_PLAN_DETAILS = """
+Expires on  : until My death"""
     HELP_USER = """
-<b> Send YouTube link and follow the on screen promptes. </b>"""
-    REPLY_TO_DOC_GET_LINK = "Reply to a Telegram media to get High Speed Direct Download Link"
-    REPLY_TO_DOC_FOR_C2V = "Reply to a Telegram media to convert"
-    REPLY_TO_DOC_FOR_SCSS = "Reply to a Telegram media to get screenshots"
+<b> Send YouTube ink Or Any Video Direct Link </b>"""
+    REPLY_TO_DOC_GET_LINK = "😒😒 Send Me Link"
+    REPLY_TO_DOC_FOR_C2V = "😒😒 Send Me Link"
+    REPLY_TO_DOC_FOR_SCSS = "😒😒 Send Me Link"
     REPLY_TO_DOC_FOR_RENAME_FILE = "Reply to a Telegram media to /rename with custom thumbnail support"
-    AFTER_GET_DL_LINK = "Direct Link <a href='{}'>Generated</a> valid for {} days.\n© @AnyDLBot"
+    AFTER_GET_DL_LINK = "Direct Link <a href='{}'>Generated</a> valid for {} days.\n"
     FF_MPEG_RO_BOT_RE_SURRECT_ED = """Syntax: /trim HH:MM:SS [HH:MM:SS]"""
     FF_MPEG_RO_BOT_STEP_TWO_TO_ONE = "First send /downloadmedia to any media so that it can be downloaded to my local. \nSend /storageinfo to know the media, that is currently downloaded."
     FF_MPEG_RO_BOT_STOR_AGE_INFO = "Video Duration: {}\nSend /clearffmpegmedia to delete this media, from my storage.\nSend /trim HH:MM:SS [HH:MM:SS] to cu[l]t a small photo / video, from the above media."
@@ -62,12 +49,10 @@ Expires on  : until my death"""
     EXTRACT_ZIP_INTRO_ONE = "Send a compressed file first, Then reply /unzip command to the file."
     EXTRACT_ZIP_INTRO_THREE = "Analyzing received file. ⚠️ This might take some time. Please be patient. "
     UNZIP_SUPPORTED_EXTENSIONS = ("zip", "rar")
-    EXTRACT_ZIP_ERRS_OCCURED = "Sorry. Errors occurred while processing compressed file. Please check everything again twice, and if the issue persists, report this to <a href='https://telegram.dog/ThankTelegram'>@SpEcHlDe</a>"
+    EXTRACT_ZIP_ERRS_OCCURED = "Sorry. Errors occurred while processing compressed file. Please check everything again twice, and if the issue persists, "
     EXTRACT_ZIP_STEP_TWO = """Select file_name to upload from the below options.
 You can use /rename command after receiving file to rename it with custom thumbnail support."""
     CANCEL_STR = "Process Cancelled"
     ZIP_UPLOADED_STR = "Uploaded {} files in {} seconds"
-    FREE_USER_LIMIT_Q_SZE = """Cannot Process.
-Free users only 1 request per 30 minutes.
-/upgrade or Try 1800 seconds later."""
+    FREE_USER_LIMIT_Q_SZE = """Cannot """
     SLOW_URL_DECED = "Gosh that seems to be a very slow URL. Since you were screwing my home, I am in no mood to download this file. Meanwhile, why don't you try this:==> https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
