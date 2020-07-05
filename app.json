@@ -1,15 +1,15 @@
-{
-  "name": "Youtube Dowload Bot",
-  "description": "Create By HB4All.",
+  "name": "YT Uploaderr",
+  "description": "Telegram's best .",
   "keywords": [
     "telegram",
     "best",
     "youtube",
     "downloader",
+    
   ],
-  "success_url": "https://t.me/utubedownloadrobot",
-  "website": "https://telegra.ph/HB4All-05-09",
-  "repository": "https://github.com/HappyBoy0509/youtubedownload",
+  "success_url": "https://t",
+  "website": "https://github.com/\",
+  "repository": "https://github.com/HappyBoy0509/youtubedownload/edit/master/app.json",
   "env": {
     "WEBHOOK": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
@@ -33,7 +33,7 @@
     },
     "AUTH_USERS": {
       "description": "allow only pre-defined users to use this bot",
-      "value": ""
+      "value": "7351948 20516707 "
     },
     "BANNED_USERS": {
       "description": "Banned Unwanted members..",
